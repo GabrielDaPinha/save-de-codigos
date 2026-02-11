@@ -1,0 +1,20 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+aniversario = input("Digite sua data de nascimento, exemplo: 01/01/2022: ")
+print("nome do ser:",nome)
+print("tempo de vida:",idade)
+print("primeira aparação:",aniversario)
+print(f"Saudações, {nome} Você stá on-line há {idade} anos, desde {aniversario}")
+if idade >= 18:
+    print("Você é maior de idade")
+    if idade % 2 == 0:
+        print("sua idade é par")
+    else:
+        print("sua idade é impar")
+
+else:
+    print("Você é menor de idade")
+    if idade % 2 == 0:
+        print("sua idade é par")
+    else:
+        print("sua idade é impar")
