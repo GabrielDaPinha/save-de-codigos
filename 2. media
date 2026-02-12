@@ -1,0 +1,10 @@
+aluno = input("Qual o nome do aluno?: ")
+xt = float(input("Qual a nota do aluno em Exatas?: "))
+um = float(input("Qual a nota do aluno em Humanas?: "))
+total = xt + um
+final = total / 2
+print(f"A nota do {aluno} foi de {final}")
+if final <= 5:
+    print (f"{aluno} precisa melhorar.")
+else:
+    print (f"{aluno} está indo bem.")
