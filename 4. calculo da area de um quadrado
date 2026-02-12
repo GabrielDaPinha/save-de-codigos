@@ -1,0 +1,7 @@
+soun = input("Deseja saber a área de um quadrado? Responda com (s) para sim, ou (n) para não: ")
+if soun == "n":
+    print("ok :D")
+elif soun == "s":
+    l = float(input("Qual o tamanho de um dos lados? "))
+    area = l * l
+    print(f"A área do seu quadrado é {area}")
