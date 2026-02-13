@@ -1,0 +1,12 @@
+print("Calculadora da área de circulos")
+print("Você usará raio ou diâmetro?")
+rouc = input("Use (r) para raio e (d) para diâmetro: ")
+if rouc == "r":
+    r = float(input("Qual o valor do raio? "))
+    a = 3.14 * r**2
+    print(f"A área do circulo é de {a:.2f}")
+elif rouc == "d":
+    d = float(input("Qual o valor do diametro? "))
+    r = d / 2
+    a = 3.14 * r**2
+    print(f"A área do circulo é de {a:.2f}")
