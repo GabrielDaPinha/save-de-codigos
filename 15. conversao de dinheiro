@@ -1,4 +1,4 @@
 reais = float(input(f"Quer saber quantos dólares você tem? Primeiro, quantos reais você tem? "))
 dolar = float(input(f"Quanto já está custando o dólar mesmo? "))
 resultado = reais / dolar
-print(f"Você deve ter uns US${resultado:.2f}. Tá caro né?")
+print(f"Seus R${reais} devem valer uns US${resultado:.2f}. Tá caro né?")
