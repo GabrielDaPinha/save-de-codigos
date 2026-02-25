@@ -1,0 +1,8 @@
+km = float(input(f"Vai cobrar o aluguel do carro? Quantos Km foi rodado? "))
+preco = float(input(f"Você cobra quanto por Km? "))
+dias = float(input(f"Quantos dias ele foi usado? "))
+diapreco = float(input(f"Quanto você cobra por dia? "))
+rodado = km * preco
+usado = dias * diapreco
+cobrar = rodado + usado
+print(f"Você deve cobrar R$ {cobrar:.2f}, R$ {usado:.2f} de dias usados e R$ {rodado:.2f} de Kms rodados.")
