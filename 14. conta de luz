@@ -1,0 +1,4 @@
+quantidade = float(input("Vai pagar a luz? Quantos kWh você usou?: "))
+preco = float(input(f"Quanto custa o kWh onde você mora?: "))
+conta = quantidade * preco
+print(f"Você vai precisar pagar R${conta:.2f} no final do mês")
