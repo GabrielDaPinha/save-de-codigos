@@ -1,0 +1,9 @@
+valor = float(input("Quanto custa a produção de um carro: "))
+lucro = float(input("Quantos porcento da distribuidora: "))
+imposto = float(input("Quantos porcento do imposto: "))
+l = lucro / 100
+lt = valor * l
+i = imposto / 100
+it = valor * i
+vt = valor + lt + it
+print(f"O preço final do carro dever ser de aproximadamente R${vt:.2f}")
