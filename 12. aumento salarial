@@ -1,0 +1,6 @@
+s = float(input(f"Vai receber um aumento? Digite o seu salário: "))
+a = float(input(f"Digite quantos porcento vai ser seu aumento: "))
+am = a / 100
+r = s * am
+rf = s + r
+print(f"Seu novo salário vai ser de R${rf:.2f}")
