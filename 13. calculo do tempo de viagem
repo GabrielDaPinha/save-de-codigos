@@ -1,0 +1,4 @@
+distancia = float(input(f"Que saber o tempo de uma viagem? Qual a distância?: "))
+kmh = float(input(f"Vai andar a quantos Km/h?: "))
+tempo = distancia / kmh
+print(f"Você vai demorar aproximadamente {tempo:.2f} horas")
