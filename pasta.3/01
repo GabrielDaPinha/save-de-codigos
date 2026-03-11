@@ -1,0 +1,17 @@
+print("vamos converter seus reais, quer em dólar, euro ou libras?")
+print("1 - dólar")
+print("2 - euro")
+print("3 - libra")
+escolha = int(input(f"1, 2 ou 3? "))
+r = float(input(f"quantos reais vc tem? "))
+if escolha == 1:
+    total = r / 5.2
+    print(f"você tem {total:.2f} dólares")
+elif escolha == 2:
+    total = r / 6.03
+    print(f"você tem {total:.2f} euros")
+elif escolha == 3:
+    total = r / 6.98
+    print(f"você tem {total:.2f} libras")
+else:
+    print("erro")
