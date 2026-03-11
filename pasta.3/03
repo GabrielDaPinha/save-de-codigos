@@ -1,0 +1,15 @@
+print("quer medir a área de um quadrado, triângulo ou retangulo?")
+print("1 - adm")
+print("2 - professor")
+print("3 - aluno")
+escolha = int(input(f"1, 2 ou 3? "))
+nome = str(input(f"qual seu nome"))
+match escolha:
+    case 1:
+        print(f"olá, {nome}. Você é Adiministrador e tem acesso total ao sistema")
+    case 2:
+        print(f"olá, {nome}. Você é Professor e pode alterar faltas e notas dos alunos")
+    case 3:
+        print(f"olá, {nome}. Você é Aluno e pode ver suas notas e faltas")
+    case _:
+        print("erro")
