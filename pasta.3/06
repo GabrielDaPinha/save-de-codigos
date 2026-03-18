@@ -1,0 +1,49 @@
+print("Deseja conversar com quem?")
+print("1 - suporte técnico")
+print("2 - financeiro")
+print("3 - cancelamento")
+print("4 - falar com um atendente")
+escolha = int(input(f"1, 2, 3 ou 4? "))
+match escolha:
+    case 1:
+        print("Olá, sou Cristiano Rolando dos Santos, posso ajudar?")
+        son = int(input(f"1 para sim e 2 para não: "))
+        match son:
+            case 1:
+                print("SIIUU!! Que bom que posso ajudar, mas infelizmente ocorreu um erro no sistema, tente novamente mais tarde.")
+            case 2:
+                print("É uma pena, obrigado pela preferência, SIUU!")
+            case _:
+                print("Erro.")
+    case 2:
+        print("Olá, sou Leon Andrés Meci, trabalho no financeiro da operadora, posso ajudar?")
+        son = int(input(f"1 para sim e 2 para não: "))
+        match son:
+            case 1:
+                print("VISCA BARÇA! Fico feliz em poder ajudar, mas no momento o sistema está fora do ar,tente novamente mais tarde.")
+            case 2:
+                print("Qualquer problema no futuro chame por Meci, o GOAT dos atendimentos, VISCA CATALUNYA!!")
+            case _:
+                print("Erro.")
+    case 3:
+        print("Olá, sou Islatan Ibraimovit, tem certeza que deseja cancelar o serviço?")
+        son = int(input(f"1 para sim e 2 para não: "))
+        match son:
+            case 1:
+                print("ISLATAN NÃO CANCELARÁ NADA!")
+            case 2:
+                print("Ótimo, ISLATAN não cancelaria nada mesmo.")
+            case 3:
+                print("Erro.")
+    case 4:
+        print("Olá, sou Neima da Silva Júnior, serei seu atendente, posso ajudar você hoje?")
+        son = int(input(f"1 para sim e 2 para não: "))
+        match son:
+            case 1:
+                print("PAI TÁ ON! Mas infelizmente o sistema está off, tente novamente mais tarde.")
+            case 2:
+                print("Bom saber que você não está com problemas, O PAI TA OFF...")
+            case 3:
+                print("Erro.")
+    case _:
+        print("erro")
