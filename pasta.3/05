@@ -1,0 +1,41 @@
+print("Qual cor você quer saber o nome em inglês?")
+print("1 - preto")
+print("2 - marrom")
+print("3 - vermelho")
+print("4 - laranja")
+print("5 - amarelo")
+print("6 - verde claro")
+print("7 - verde escuro")
+print("8 - azul claro")
+print("9 - azul escuro")
+print("10 - roxo")
+print("11 - rosa")
+print("12 - branco")
+escolha = int(input(f"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ou 12? "))
+match escolha:
+    case 1:
+        print("O nome da cor em inglês é black")
+    case 2:
+        print("O nome da cor em inglês é brown")
+    case 3:
+        print("O nome da cor em inglês é red")
+    case 4:
+        print("O nome da cor em inglês é oranje")
+    case 5:
+        print("O nome da cor em inglês é yellow")
+    case 6:
+        print("O nome da cor em inglês é light green")
+    case 7:
+        print("O nome da cor em inglês é dark green")
+    case 8:
+        print("O nome da cor em inglês é light blue")
+    case 9:
+        print("O nome da cor em inglês é dark blue")
+    case 10:
+        print("O nome da cor em inglês é purple")
+    case 11:
+        print("O nome da cor em inglês é pink")
+    case 12:
+        print("O nome da cor em inglês é white")
+    case _:
+        print("erro")
