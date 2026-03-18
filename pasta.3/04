@@ -1,0 +1,23 @@
+print("Que tipo de produto você vai comprar?")
+print("1 - Eletronico")
+print("2 - Roupa")
+print("3 - Alimento")
+print("4 - Móvel")
+escolha = int(input(f"1, 2, 3 ou 4? "))
+print("Quanto vai custar?")
+valor = float(input(f"Valor: "))
+match escolha:
+    case 1:
+        preco = valor * 0.9
+        print(f"Seu produto eletronico vai receber 10% de desconto e sairá por {preco}")
+    case 2:
+        preco = valor * 0.85
+        print(f"Sua roupa vai receber 15% de desconto e sairá por {preco}")
+    case 3:
+        preco = valor * 0.95
+        print(f"Seu alimento vai receber 5% de desconto e sairá por {preco}")
+    case 4:
+        preco = valor * 0.90
+        print(f"Seu móvel vai receber 10% de desconto e sairá por {preco}")
+    case _:
+        print("erro")
