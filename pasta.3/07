@@ -1,0 +1,24 @@
+wevers = int(input(f"CALCULADORA - Escolha 1 para somar, 2 para subtrair, 3 para multiplicar e 4 para dividir."))
+match wevers:
+    case 1:
+        n1 = float(input(f"Primeiro valor: "))
+        n2 = float(input(f"Segundo valor: "))
+        r = n1 + n2
+        print(f"O resultado da soma é {r}")
+    case 2:
+        n1 = float(input(f"Primeiro valor: "))
+        n2 = float(input(f"Segundo valor: "))
+        r = n1 - n2
+        print(f"O resultado da subtração é {r}")
+    case 3:
+        n1 = float(input(f"Primeiro valor: "))
+        n2 = float(input(f"Segundo valor: "))
+        r = n1 * n2
+        print(f"O resultado da multiplicação é {r}")
+    case 4:
+        n1 = float(input(f"Primeiro valor: "))
+        n2 = float(input(f"Segundo valor: "))
+        r = n1 / n2
+        print(f"O resultado da divisão é {r}")
+    case _:
+        print(f"Erro.")
