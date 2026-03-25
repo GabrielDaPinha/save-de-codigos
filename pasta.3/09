@@ -1,0 +1,16 @@
+print(f"--------------------")
+print(f"-=Preços Carrefour=-")
+print(f"--------------------")
+print(f"1 - Preço do Pringles")
+print(f"2 - Preço da Esponja")
+print(f"3 - Preço da Luva de Borracha")
+mcqueen = int(input(f"Escolha: "))
+match mcqueen:
+    case 1:
+        print(f"R$ 14,99")
+    case 2:
+        print(f"R$ 4,99")
+    case 3:
+        print(f"R$ 1,99")
+    case _:
+        print(f"Erro.")
