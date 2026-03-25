@@ -1,0 +1,50 @@
+print(f"--------------------")
+print(f"-=Preços Carrefour=-")
+print(f"--------------------")
+
+print(f"1 - Preço do Pringles")
+print(f"2 - Preço da Esponja")
+print(f"3 - Preço da Luva de Borracha")
+mcqueen = int(input(f"Escolha: "))
+match mcqueen:
+    case 1:
+        print(f"R$ 14,99")
+        print(f"1 - Dinheiro")
+        print(f"2 - Cartão")
+        print(f"3 - Pix")
+        ney = int(input(f"Método de pagamento: "))
+        match ney:
+            case 1:
+                print(f"14,99")
+            case 2:
+                print(f"15,99")
+            case 3:
+                print(f"13,99")
+    case 2:
+        print(f"R$ 4,99")
+        print(f"1 - Dinheiro")
+        print(f"2 - Cartão")
+        print(f"3 - Pix")
+        ney = int(input(f"Método de pagamento: "))
+        match ney:
+            case 1:
+                print(f"4,99")
+            case 2:
+                print(f"5,99")
+            case 3:
+                print(f"3,99")
+    case 3:
+        print(f"R$ 1,99")
+        print(f"1 - Dinheiro")
+        print(f"2 - Cartão")
+        print(f"3 - Pix")
+        ney = int(input(f"Método de pagamento: "))
+        match ney:
+            case 1:
+                print(f"1,99")
+            case 2:
+                print(f"2,99")
+            case 3:
+                print(f"0,99")
+    case _:
+        print(f"Erro.")
