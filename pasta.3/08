@@ -1,0 +1,16 @@
+print(f"--------------------")
+print(f"-=Passagens de SP=-")
+print(f"--------------------")
+print(f"1 - SP -> Rio de Janeiro")
+print(f"2 - SP -> Curitiba")
+print(f"3 - SP -> Salvador")
+mcqueen = int(input(f"Escolha: "))
+match mcqueen:
+    case 1:
+        print(f"R$ 300,00")
+    case 2:
+        print(f"R$ 250,00")
+    case 3:
+        print(f"R$ 250,00")
+    case _:
+        print(f"Erro.")
