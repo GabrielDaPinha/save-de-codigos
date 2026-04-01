@@ -1,0 +1,3 @@
+nilba = int(input(f"Diga um número que eu contarei do 1 até o número escolhido: "))
+for numero in range(1, nilba+1, +1):
+    print(f"{numero}")
