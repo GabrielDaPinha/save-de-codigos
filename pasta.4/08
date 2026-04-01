@@ -1,0 +1,6 @@
+soma = 0
+for notas in range(5):
+    valor = float(input(f"Insira o valor da nota {notas+1}: "))
+    soma += valor
+media = soma / 5
+print(f"{media}")
