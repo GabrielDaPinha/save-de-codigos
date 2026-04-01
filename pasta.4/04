@@ -1,0 +1,6 @@
+print(f"Me diga 3 números, o primeiro para ser o inicio da contagem, o segundo o fim e o terceiro de quanto em quanto vou contar")
+num1 = int(input(f"Insira o primeiro número: "))
+num2 = int(input(f"Insira o segundo número: "))
+num3 = int(input(f"Insira o terceiro número: "))
+for messi in range(num1, num2, num3):
+    print(messi)
