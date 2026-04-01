@@ -1,0 +1,5 @@
+fat = 1
+brazao = int(input(f"Digite um valor para somar do 1 até ele: "))
+for soma in range(1, brazao, +1):
+    fat += soma
+print(fat)
