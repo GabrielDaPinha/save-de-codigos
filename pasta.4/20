@@ -1,0 +1,9 @@
+cont = 0
+num = int(input(f"Numero: "))
+for i in range(num, 0, -1):
+    if num % i == 0:
+        cont+=1
+if cont > 2:
+    print(f"Não primo")
+else:
+    print(f"Primo")
