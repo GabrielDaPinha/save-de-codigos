@@ -1,0 +1,5 @@
+fat = 1
+n = int(input(f"Digite um número: "))
+for wer in range(n, 0, -1):
+    fat *= wer
+    print(f"{fat}")
